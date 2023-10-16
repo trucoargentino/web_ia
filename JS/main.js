@@ -50,7 +50,7 @@ let general=`<nav>
         <a href="./faq.html" class="nav-link">FAQ</a>
     </div>
     <div class="nav-actions">
-        <a target="_blank" href="./Acceso.html" class="nav-action">Iniciar Sesión</a>
+        <a " href="./Acceso.html" class="nav-action">Iniciar Sesión</a>
         <a target="_blank" href="./registrate.html" class="nav-action">Regístrate</a>
     </div>
     <div class="nav-contacts">

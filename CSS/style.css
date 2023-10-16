@@ -1,13 +1,13 @@
 body {
+    background-image: url(./job297-ploy-07b-blue-01.jpg);     
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f5ff; 
 }
 
 /* Estilos para el encabezado y la barra de navegación */
 header {
-    background-color: #5381ff; 
+    backface-visibility: hidden;
     color: #fff;
     padding: 20px 0;
     position: sticky;
@@ -28,13 +28,52 @@ nav {
     padding: 0 20px;
 }
 
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+        backface-visibility: hidden;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nav-actions {
+        flex-direction: column;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .nav-contacts {
+        flex-direction: column;
+        width: 100%;
+        margin-top: 20px;
+    }
+    
+    .nav-bg {
+        display: none;
+    }
+
+    .nav-link,
+    .nav-action,
+    .nav-contact {
+        border-radius: 0;
+        padding: 10px 20px;
+        margin: 5px 0;
+        width: 100%;
+        text-align: center;
+    }
+}
+
 .nav-links {
     display: flex;
     align-items: center;
 }
 
 .nav-bg {
-    background-color: #fdf254; 
+    background-color: #a5f4ec; 
     border-radius: 5px; 
     display: flex;
 }
@@ -50,7 +89,7 @@ nav {
 
 .nav-link:hover {
     color: #141517;
-    background-color: #bdb001; /* Cambia de color al pasar el mouse */
+    background-color: #efe771; /* Cambia de color al pasar el mouse */
 }
 
 .nav-actions {
@@ -98,9 +137,7 @@ main {
     padding: 20px;
 }
 
-.card {
-    background-color: #fff; /* Fondo blanco */
-    border: 1px solid #ddd;
+.card { 
     border-radius: 5px;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -172,4 +209,15 @@ footer {
     width: 40px;
     vertical-align: middle;
 }
+
+.imagen-recortada {
+    width: 200px; /* Ancho deseado */
+    height: 200px; /* Alto deseado */
+    overflow: hidden; /* Oculta el contenido que excede las dimensiones del contenedor */
+}
+
+.imagen-recortada img {
+    width: 100%; /* Ajusta el tamaño de la imagen al 100% del contenedor */
+}
+
 
