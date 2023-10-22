@@ -1,0 +1,28 @@
+{
+  "resultados":[
+    {
+      "id": 1,
+      "foto": "https://d2426xcxuh3ht5.cloudfront.net/39jXeQXJRQ6glthozzzq_what-is-chatgpt.png",
+      "nombre": "ChatGPT",
+      "descripcion": "ChatGPT es la inteligencia artificial conversacional que ha liderado la revolución de la IA desde finales del 2022. Puedes mantener conversaciones con ella y pedirle que haga muchas cosas, desde buscarte información sobre algo hasta escribirte resumenes, guiones y mucho más."
+    },
+    {
+      "id": 2,
+      "foto": "https://techviral.net/wp-content/uploads/2023/08/Bing-Chat-AI-Now-Comes-To-All-Chrome-Desktop-Users.png",
+      "nombre": "Bing Chat",
+      "descripcion": " Bing Chat es el la IA conversacional de Microsoft desarrollada con GPT-4 con la colaboración de OpenAI, los creadores de ChatGPT. Poco a poco se va desplegando gratis para todos los usuarios del buscador de Microsoft."
+    },
+    {
+      "id": 3,
+      "foto": "https://characterai.io/static/logo-variants/text-logo-dark.png",
+      "nombre": "CharacterAI",
+      "descripcion": "Una página en la que puedes crear chatbots mediante IA, e interactuar por esos creados por otros usuarios, que pueden ser desde Bowser hasta Elon Musk."
+    },
+    {
+      "id": 4,
+      "foto": "https://psc2.cf2.poecdn.net/05fcf3f8505581fbf7e924e969db5330bd1fe902/_next/static/media/poeFullWhite.fc732b75.svg",
+      "nombre": "Poe",
+      "descripcion": "Es un agente artificial creado por el portal Quora, y que ha sido creado para que le puedas hacer las preguntas que quieras y obtener respuestas."
+    }
+  ]
+}

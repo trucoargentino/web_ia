@@ -1,24 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Acceso</title>
     <link rel="stylesheet" href="./CSS/style.css">
-    <link rel="shortcut icon" href="./img/artificial.png" type="image/x-icon"></link>
+    <link rel="stylesheet" href="./CSS/stylelogin.css">
+    <link rel="shortcut icon" href="./img/artificial.png" type="image/x-icon">
+    </link>
 
 </head>
+
 <body>
     <header>
 
     </header>
     <main>
-
+        <h1>Iniciar Sesión</h1>
+        <form action="#" onsubmit="return validarUsuario()">
+            <label for="usuario">Usuario:</label>
+            <input type="text" id="usuario" name="usuario" required><br>
+            <div id="mensajeUsuario" style="color: red;"></div>
+    
+            <label for="clave">Clave:</label>
+            <input type="password" id="clave" name="clave" required><br>
+            <div id="mensajeClave" style="color: red;"></div>
+    
+            <input type="submit" value="Iniciar Sesión">
+        </form>
     </main>
     <footer>
 
     </footer>
 
     <script src="./JS/main.js"></script>
+    <script src="./JS/inicio_sesion.js"></script>
 </body>
+
 </html>

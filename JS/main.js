@@ -1,46 +1,17 @@
-//Js para carrusel
-document.addEventListener("DOMContentLoaded", function () {
-    const slides = document.querySelectorAll(".slide");
-    let currentSlide = 0;
+function validarFormulario() {
+  var nombre = document.getElementById("nombre").value;
+  var email = document.getElementById("email").value;
+  var mensaje = document.getElementById("mensaje").value;
 
-    function showSlide(n) {
-        slides[currentSlide].style.display = "none";
-        currentSlide = (n + slides.length) % slides.length;
-        slides[currentSlide].style.display = "block";
-    }
-
-    function nextSlide() {
-        showSlide(currentSlide + 1);
-    }
-
-    function prevSlide() {
-        showSlide(currentSlide - 1);
-    }
-
-    const nextButton = document.querySelector(".next-button");
-    const prevButton = document.querySelector(".prev-button");
-
-    nextButton.addEventListener("click", nextSlide);
-    prevButton.addEventListener("click", prevSlide);
-
-    showSlide(currentSlide);
-});
-
- // Función para validar el formulario
- function validarFormulario() {
-    var nombre = document.getElementById("nombre").value;
-    var email = document.getElementById("email").value;
-    var mensaje = document.getElementById("mensaje").value;
-
-    if (nombre === "" || email === "" || mensaje === "") {
-        alert("Por favor, completa todos los campos.");
-        return false;
-    }
-
-    return true;
+  if (nombre === "" || email === "" || mensaje === "") {
+    alert("Por favor, complete todos los campos.");
+    return false;
+  }
+  alert("Formulario validado con éxito.");
+  return true;
 }
 
-let general=`<nav>
+let general = `<nav>
 <a href="#"><img class="logo" src="./img/artificial.png" alt="Logo"></a>
 <div class="nav-links">
     <div class="nav-bg">
@@ -58,11 +29,11 @@ let general=`<nav>
     </div>
 
 </div>
-</nav>`
+</nav>`;
 
-document.querySelector("header").innerHTML=general
+document.querySelector("header").innerHTML = general;
 
-let foot=`<footer>
+let foot = `<footer>
     <div class="copyright">
         2023 <b> IA Technologies</b>&copy; Todos los derechos Reservados
     </div>
@@ -74,7 +45,5 @@ let foot=`<footer>
         <a href="index.html"><img src="./img/github.png" alt="GitHub"></a>
         <a href="index.html"><img src="./img/youtube.png" alt="YouTube"></a>
     </div>
-</footer>`
-document.querySelector("footer").innerHTML=foot
-
-
+</footer>`;
+document.querySelector("footer").innerHTML = foot;
