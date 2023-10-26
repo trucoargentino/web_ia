@@ -14,7 +14,7 @@ let head =  `<header>
             <li><a href="./faq.html">FAQ</a></li>
 
             <li><a  href=" ./iniciosesion.html">Iniciar Sesión</a></li>
-            <li><a target="_blank" href="./registrate.html">Regístrate</a></li>
+            <li><a target="_blank" href="./register.html">Regístrate</a></li>
             <li><a href="./contacto.html">Contacto</a></li>
         </ul>
     </div>
