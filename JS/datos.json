@@ -1,28 +1,172 @@
 {
-  "resultados":[
+  "resultados": [
     {
       "id": 1,
-      "foto": "https://d2426xcxuh3ht5.cloudfront.net/39jXeQXJRQ6glthozzzq_what-is-chatgpt.png",
+      "foto": "./img/data_img/chatgtp.png",
       "nombre": "ChatGPT",
-      "descripcion": "ChatGPT es la inteligencia artificial conversacional que ha liderado la revolución de la IA desde finales del 2022. Puedes mantener conversaciones con ella y pedirle que haga muchas cosas, desde buscarte información sobre algo hasta escribirte resumenes, guiones y mucho más."
+      "descripcion": "ChatGPT es la inteligencia artificial conversacional que ha liderado la revolución de la IA desde finales del 2022. Puedes mantener conversaciones con ella y pedirle que haga muchas cosas, desde buscarte información sobre algo hasta escribirte resumenes, guiones y mucho más.",
+      "seccion": "IAs conversaciones"
     },
     {
       "id": 2,
-      "foto": "https://techviral.net/wp-content/uploads/2023/08/Bing-Chat-AI-Now-Comes-To-All-Chrome-Desktop-Users.png",
+      "foto": "./img/data_img/bingai.png",
       "nombre": "Bing Chat",
-      "descripcion": " Bing Chat es el la IA conversacional de Microsoft desarrollada con GPT-4 con la colaboración de OpenAI, los creadores de ChatGPT. Poco a poco se va desplegando gratis para todos los usuarios del buscador de Microsoft."
+      "descripcion": " Bing Chat es el la IA conversacional de Microsoft desarrollada con GPT-4 con la colaboración de OpenAI, los creadores de ChatGPT. Poco a poco se va desplegando gratis para todos los usuarios del buscador de Microsoft.",
+      "seccion": "IAs conversaciones"
     },
     {
       "id": 3,
-      "foto": "https://characterai.io/static/logo-variants/text-logo-dark.png",
+      "foto": "./img/data_img/characterai.png",
       "nombre": "CharacterAI",
-      "descripcion": "Una página en la que puedes crear chatbots mediante IA, e interactuar por esos creados por otros usuarios, que pueden ser desde Bowser hasta Elon Musk."
+      "descripcion": "Una página en la que puedes crear chatbots mediante IA, e interactuar por esos creados por otros usuarios, que pueden ser desde Bowser hasta Elon Musk.",
+      "seccion": "IAs conversaciones"
     },
     {
       "id": 4,
-      "foto": "https://psc2.cf2.poecdn.net/05fcf3f8505581fbf7e924e969db5330bd1fe902/_next/static/media/poeFullWhite.fc732b75.svg",
+      "foto": "img/data_img/poe.jpeg",
       "nombre": "Poe",
-      "descripcion": "Es un agente artificial creado por el portal Quora, y que ha sido creado para que le puedas hacer las preguntas que quieras y obtener respuestas."
+      "descripcion": "Es un agente artificial creado por el portal Quora, y que ha sido creado para que le puedas hacer las preguntas que quieras y obtener respuestas.",
+      "seccion": "IAs conversaciones"
+    },
+    {
+      "id": 5,
+      "foto": "./img/data_img/githugcopilot.jpeg",
+      "nombre": "GitHub Copilot",
+      "descripcion": "Copilot de Github es un asistente basado en Inteligencia Artificial que ayuda a escribir código en tiempo real.",
+      "seccion": "Desarrollo y Programación"
+    },
+    {
+      "id": 6,
+      "foto": "img/data_img/phind.png",
+      "nombre": "Phind",
+      "descripcion": "Un motor de búsqueda basado en ChatGPT dedicado a los desarrolladores. Podrás hacer preguntas relacionado con códigos y lenguajes de programación, y te devolverá las respuestas.",
+      "seccion": "Desarrollo y Programación"
+    },
+    {
+      "id": 7,
+      "foto": "img/data_img/codium.png",
+      "nombre": "CodiumAI",
+      "descripcion": "Un sistema de inteligencia artificial que se dedicará a analizar el código que estés programando y a generar pruebas significativas para ayudarte a encontrar bugs y errores.",
+      "seccion": "Desarrollo y Programación"
+    },
+    {
+      "id": 8,
+      "foto": "img/data_img/dataprepakkio.jpeg",
+      "nombre": "Chat Data Prep",
+      "descripcion": "Un sistema de IA para crear modelos ML en minutos. No necesitarás fórmulas complejas, SQL ni conocimientos de desarrollo para transformar tus datos en información, solo se lo tendrás que pedir a esta IA de Akkio.",
+      "seccion": "Desarrollo y Programación"
+    },
+    {
+      "id": 9,
+      "foto": "img/data_img/bingcreatorimg.jpeg",
+      "nombre": "Bing image Creator",
+      "descripcion": "Microsoft tiene esta propuesta como sistema de inteligencia artificial para crear imágenes de la nada. Bing Image Creator utiliza una versión avanzada de DALL-E para funcionar, y solo tienes que describir lo que quieres para que te genere una imagen.",
+      "seccion": "Arte y Diseño"
+    },
+    {
+      "id": 10,
+      "foto": "img/data_img/runawaytools.png",
+      "nombre": "AI Magic Tools",
+      "descripcion": "Una colección de más de 30 herramientas de inteligencia artificial creadas por runway. Necesitas registrarte para acceder, pero te ofrece edición de vídeo en tiempo real, creación de imágenes, filtros, herramientas colaborativas y mucho más.",
+      "seccion": "Arte y Diseño"
+    },
+    {
+      "id": 11,
+      "foto": "img/data_img/dalle2.png",
+      "nombre": "DALL-E 2",
+      "descripcion": "Es una de las herramientas más populares para crear imágenes realistas de la nada. Lo único que tienes que hacer es describir lo que quieres ver, y DALL-E lo va a crear para ti.",
+      "seccion": "Arte y Diseño"
+    },
+    {
+      "id": 12,
+      "foto": "img/data_img/dreamstudio.jpeg",
+      "nombre": "DreamStudioAI",
+      "descripcion": " Se trata de una herramienta online creada por Stability AI. Su misión es la de permitirte utilizar Stable Diffusion online cuando quieras, uno de los motores más populares para crear imágenes a partir de tus peticiones de texto. ",
+      "seccion": "Arte y Diseño"
+    },
+    {
+      "id": 13,
+      "foto": "img/data_img/consensus.png",
+      "nombre": "Consensus",
+      "descripcion": "Un buscador especializado en papers de investigación. Esto quiere decir que tú le preguntas algo, y la IA te responderá basándose en información científica, y no en lo que ponga en webs de Internet.",
+      "seccion": "Investigación y Aprendizaje"
+    },
+    {
+      "id": 14,
+      "foto": "img/data_img/socialstudio.png",
+      "nombre": "Social Studio AI",
+      "descripcion": "Se trata de una herramienta de inteligencia artificial desarrollada por Salesforce que permite analizar y comprender las conversaciones y tendencias en las redes sociales relacionadas con temas de interés en las ciencias sociales.",
+      "seccion": "Investigación y Aprendizaje"
+    },
+    {
+      "id": 15,
+      "foto": "img/data_img/IBMwatson.jpeg",
+      "nombre": "IBM Watson",
+      "descripcion": "Watson es una plataforma de inteligencia artificial que ofrece diversas herramientas y servicios, como análisis de sentimientos, procesamiento del lenguaje natural y detección de emociones, que pueden ser aplicados en investigaciones sociales.",
+      "seccion": "Investigación y Aprendizaje"
+    },
+    {
+      "id": 16,
+      "foto": "img/data_img/Azurecognitiveserv.png",
+      "nombre": "Microsoft Azure Cognitive Services",
+      "descripcion": "Azure ofrece una variedad de servicios de inteligencia artificial, incluyendo reconocimiento facial, análisis de emociones y análisis de texto. Estas herramientas pueden ayudar en la investigación social para comprender las reacciones y emociones de las personas en diferentes contextos.",
+      "seccion": "Investigación y Aprendizaje"
+    },
+    {
+      "id": 17,
+      "foto": "img/data_img/explainpaper.png",
+      "nombre": "ExplainPaper",
+      "descripcion": "Una inteligencia artificial creada para ayudarte a analizar los papers académicos. Tú subes el paper, y la IA lo analiza y te lo explica de una manera que puedas entender.",
+      "seccion": "Educación"
+    },
+    {
+      "id": 18,
+      "foto": "img/data_img/askbotta.jpeg",
+      "nombre": "Ask Botta",
+      "descripcion": "Un asistente de enseñanza o profesor virtual. Podrás elegir un tema y Botta se convertirá en experto, pudiéndole hacer luego preguntas para que solucione tus problemas.",
+      "seccion": "Educación"
+    },
+    {
+      "id": 19,
+      "foto": "img/data_img/cathoven.png",
+      "nombre": "Cathoven",
+      "descripcion": "Una herramienta creada para profesionales de la enseñanza de idiomas, que mediante inteligencia artificial determinará la dificultad de textos, analizará sus características y te mostrará los puntos de enseñanza más importantes dependiendo del nivel de los alumnos.",
+      "seccion": "Educación"
+    },
+    {
+      "id": 20,
+      "foto": "img/data_img/lorro.png",
+      "nombre": "Lorro",
+      "descripcion": "Un tutor virtual que te ayudará a practicar tu inglés hablado. La IA te escuchará y te corregirá si hiciera falta. De momento es exclusivo para el iPhone.",
+      "seccion": "Educación"
+    },
+    {
+      "id": 21,
+      "foto": "img/data_img/suggests.png",
+      "nombre": "AI Suggests",
+      "descripcion": "Una herramienta que te genera ideas de contenido para tu blog. Tu dices el tipo de contenido o la temática sobre lo que quieres escribir, y te devolverá varias ideas.",
+      "seccion": "Productividad"
+    },
+    {
+      "id": 22,
+      "foto": "img/data_img/copyai.png",
+      "nombre": "Copy.ai",
+      "descripcion": "Una IA basada en ChatGPT diseñada para ayudarte a crear todo tipo de textos. Te va a servir para crear contenido para blogs, crear descripciones de productos, contenido para redes sociales y más.",
+      "seccion": "Productividad"
+    },
+    {
+      "id": 23,
+      "foto": "img/data_img/peech.jpeg",
+      "nombre": "Peech",
+      "descripcion": "Una herramienta que te ayuda a crear contenidos de vídeo para marketing. Tú le das tu vídeo, y la IA creará transcripciones, lo editará, y realizará otros tipos de acciones en él.",
+      "seccion": "Productividad"
+    },
+    {
+      "id": 24,
+      "foto": "img/data_img/draftlab.png",
+      "nombre": "DraftLab",
+      "descripcion": "Un asistente de inteligencia artificial creado explícitamente para ayudarte en Gmail. Te permitirá realizar mejores escrituras, e incluso escribirá automáticamente respuestas basándose en cómo has empezado el texto y en lo que te ha escrito la otra persona.",
+      "seccion": "Productividad"
     }
   ]
 }

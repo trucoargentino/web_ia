@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="shortcut icon" href="./img/icons/artificial.png" type="image/x-icon">
+    <title>IA Technologies</title>
+</head>
+
+<body>
+    <header></header>
+
+
+    <div id="app">
+      <div class="seleccion-container">
+        <label class="sus" for="secciones">Selecciona una sección:</label>
+        <select id="secciones" v-model="seccionSeleccionada" class="seleccion-seccion">
+          <option value="">Todas las secciones</option>
+          <option v-for="seccion in secciones" :value="seccion">{{ seccion }}</option>
+        </select>
+      </div>
+    
+      <div class="contenedor-tarjetas">
+        <div class="tarjeta" v-for="elemento in elementosFiltrados" :key="elemento.id">
+          <img :src="elemento.foto" :alt="elemento.nombre">
+          <p class="nombre">{{ elemento.nombre }}</p>
+          <p class="desc" >{{ elemento.descripcion }}</p>
+        </div>
+      </div>
+    </div>
+
+    <footer></footer>
+
+
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
+    <script src="./JS/main.js"></script>
+
+    <script src="./JS/tech.js"></script>
+</body>
+
+</html>
